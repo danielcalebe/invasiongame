@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Alien Invasion</title>
+  <!-- Importando o arquivo CSS -->
+  <link rel="stylesheet" href="base.css" type="text/css" />
+  <!-- Importando a fonte do Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+  <!-- Configurações de visualização -->
+  <meta name="viewport" content="width=device-width, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body style="background-color:black;">
+  <!-- Elemento de áudio para efeitos sonoros -->
+  <audio class='somComer' src="./images/pistol-shot.mp3"></audio>
+  <div id='container'>
+	<!-- Título do jogo -->
+	<h1 style="color:#fff; font-size:30px;" id="lvl">Senai InvasionㅤLvL:</h1>
+    <!-- Canvas onde o jogo será renderizado -->
+    <canvas id='game' width='283' height='480' style="border:2px solid #fff;"></canvas>
+  </div>
+  
+  <!-- Scripts do jogo -->
+  <script src='engine.js'></script>
+  <script src='game.js'></script>
+</body>
+</html>
+
+
